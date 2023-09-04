@@ -1,0 +1,265 @@
+<mxfile host="app.diagrams.net" modified="2023-08-26T00:38:07.426Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="DikoNTMP7faGZii9hGYJ" version="21.6.9" type="device">
+  <diagram name="Página-1" id="d47ZF6Xck1yy4G0TsWcE">
+    <mxGraphModel dx="2222" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="claokVR7_tWzUHQTC4J4-2" value="&lt;div&gt;Un club de futbol necesita un sistema para la gestion de sus actividades. Sabemos que el club tiene un nombre, una dirección (compuesta por la calle, la altura y la ciudad), un año de fundacion y un equipo por cada categoría. Las categorias existentes son PRIMERA, SEGUNDA y TERCERA, y cada equipo (ademas de tener la categoría) tiene una lista de jugadores. Cada jugador tiene un nombre, apellido y un dorsal (numero). El equipo tambien tiene entrenador, del que sabemos nombre, apellido y tactica (puede ser DEFENSIVA, OFENSIVA o EQUILIBRADA) y el club, para sus operaciones, tiene empleados administrativo, de los que sabemos el nombre, el apellido y función.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Diseñar el diagrama UML con todas las clases y relaciones necesarias, implementarlo en codigo (C#) y en una clase aparte de las de nuestro modelo, instanciar 10 jugadores, con todos sus datos completos, 3 entrenadores, 3 equipos, 3 empleados administrativos y 1 club (dejar datos completos y asignar todos).&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Los jugadores, los entrenadores y los empleados se saben presentar. En los 3 casos dicen su nombre y apellido, pero el jugador tambien menciona su dorsal, el entrenador su tactica, y el empleado administrativo su funcion.&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Desarrollar los metodos del equipo para agregar y quitar jugadores de un equipo. El metodo será &quot;AgregarJugador&quot; y recibe 1 jugador, y tambien el metodo &quot;QuitarJugador&quot; que tambien recibirá 1 jugador.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Desarrollar los metodos del club para agregar y quitar equipos. El metodo será &quot;AgregarEquipo&quot; que recibirá 1 equipo y &quot;RemoverEquipo&quot; que también recibirá 1 equipo.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Desarrollar el metodo del club para agregar y quitar empleados. El metodo será &quot;AgregarEmpleado&quot; que recibirá 1 empleado y &quot;RemoverEmpleado&quot; que también recibirá 1 empleado.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Modelar todos los getters, setters y constructores necesarios.&amp;nbsp;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="30" width="956" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-3" value="Club" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="637" y="400" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-9" value="- Nombre: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="claokVR7_tWzUHQTC4J4-3">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-8" value="- Año: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="claokVR7_tWzUHQTC4J4-3">
+          <mxGeometry y="52" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="claokVR7_tWzUHQTC4J4-3">
+          <mxGeometry y="78" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-34" value="+ AgregarEquipo(Equipo)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="claokVR7_tWzUHQTC4J4-3">
+          <mxGeometry y="86" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-35" value="+ RemoverJugador(Equipo)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="claokVR7_tWzUHQTC4J4-3">
+          <mxGeometry y="112" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-36" value="+ AgregarEmpleado(Empleado)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="claokVR7_tWzUHQTC4J4-3">
+          <mxGeometry y="138" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-37" value="+ RemoverEmpleado(Empleado)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="claokVR7_tWzUHQTC4J4-3">
+          <mxGeometry y="164" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-10" value="Equipo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="392" width="200" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="claokVR7_tWzUHQTC4J4-10">
+          <mxGeometry y="26" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-15" value="+ AgregarJugador(Jugador)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="claokVR7_tWzUHQTC4J4-10">
+          <mxGeometry y="34" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-32" value="+ QuitarJugador(Jugador)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="claokVR7_tWzUHQTC4J4-10">
+          <mxGeometry y="60" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-11" value="- categoria" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="392" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-50" style="orthogonalLoop=1;jettySize=auto;html=1;strokeColor=none;rounded=0;endArrow=none;endFill=0;" edge="1" parent="1" source="claokVR7_tWzUHQTC4J4-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-51" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="claokVR7_tWzUHQTC4J4-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-17" value="Entrenador" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="760" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="claokVR7_tWzUHQTC4J4-17">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-64" value="+ Presentarse()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="claokVR7_tWzUHQTC4J4-17">
+          <mxGeometry y="34" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-22" value="Jugador&amp;nbsp;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="760" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-24" value="- Dorsal: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="claokVR7_tWzUHQTC4J4-22">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-25" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="claokVR7_tWzUHQTC4J4-22">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-65" value="+ Presentarse()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="claokVR7_tWzUHQTC4J4-22">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-27" value="Empleado" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="760" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-29" value="- Funcion: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="claokVR7_tWzUHQTC4J4-27">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="claokVR7_tWzUHQTC4J4-27">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-66" value="+ Presentarse()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="claokVR7_tWzUHQTC4J4-27">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-38" value="&lt;i&gt;Persona&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1030" width="160" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-39" value="- Nombre: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="claokVR7_tWzUHQTC4J4-38">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-40" value="- Apellido: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="claokVR7_tWzUHQTC4J4-38">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-41" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="claokVR7_tWzUHQTC4J4-38">
+          <mxGeometry y="78" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-42" value="+ Presentarse()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="claokVR7_tWzUHQTC4J4-38">
+          <mxGeometry y="86" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-43" value="&lt;b&gt;TACTICA&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="870" width="140" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-44" value="+ OFENSIVA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="claokVR7_tWzUHQTC4J4-43">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-45" value="+ DEFENSIVA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="claokVR7_tWzUHQTC4J4-43">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-46" value="+ EQUILIBRADA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="claokVR7_tWzUHQTC4J4-43">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-48" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="claokVR7_tWzUHQTC4J4-17" target="claokVR7_tWzUHQTC4J4-43">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="230" y="810" as="sourcePoint" />
+            <mxPoint x="390" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-49" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="claokVR7_tWzUHQTC4J4-38">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="900" as="sourcePoint" />
+            <mxPoint x="400" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-52" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="claokVR7_tWzUHQTC4J4-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="900" as="targetPoint" />
+            <mxPoint x="260" y="810" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-53" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="claokVR7_tWzUHQTC4J4-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="900" as="targetPoint" />
+            <mxPoint x="270" y="820" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-19" value="- tactica" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="760" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-54" value="&lt;b&gt;CATEGORIA&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="374" width="140" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-55" value="+ PRIMERA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="claokVR7_tWzUHQTC4J4-54">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-56" value="+ SEGUNDA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="claokVR7_tWzUHQTC4J4-54">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-57" value="+ TERCERA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="claokVR7_tWzUHQTC4J4-54">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-60" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="claokVR7_tWzUHQTC4J4-10" target="claokVR7_tWzUHQTC4J4-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="160" y="380" as="sourcePoint" />
+            <mxPoint x="320" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-13" value="- Entrenador: Entrenador" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="510" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-61" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="claokVR7_tWzUHQTC4J4-10" target="claokVR7_tWzUHQTC4J4-22">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="200" y="492" as="sourcePoint" />
+            <mxPoint x="200" y="823" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="426" />
+              <mxPoint x="350" y="780" />
+              <mxPoint x="390" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-12" value="- Jugadores: List&amp;lt;Jugador&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="550" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-63" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="claokVR7_tWzUHQTC4J4-3" target="claokVR7_tWzUHQTC4J4-27">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="502" as="sourcePoint" />
+            <mxPoint x="210" y="833" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-4" value="- Empleados: List&amp;lt;Empleado&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="620" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-69" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="claokVR7_tWzUHQTC4J4-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="735" y="410" as="sourcePoint" />
+            <mxPoint x="190" y="393" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="735" y="360" />
+              <mxPoint x="190" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-16" value="- Equipos: List&amp;lt;Equipo&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="330" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-70" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="claokVR7_tWzUHQTC4J4-10" target="claokVR7_tWzUHQTC4J4-54">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="800" as="sourcePoint" />
+            <mxPoint y="880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="420" />
+              <mxPoint x="400" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-71" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="478" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-72" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="728" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-73" value="*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="355" y="728" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-74" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="285" y="428" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-75" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="705" y="588" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-76" value="*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="605" y="728" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-77" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="735" y="378" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-78" value="*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="362" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-79" value="&lt;b&gt;Direccion&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="400" width="140" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-80" value="- Calle: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="claokVR7_tWzUHQTC4J4-79">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-81" value="- Altura: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="claokVR7_tWzUHQTC4J4-79">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-82" value="- Ciudad: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="claokVR7_tWzUHQTC4J4-79">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-83" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="claokVR7_tWzUHQTC4J4-3" target="claokVR7_tWzUHQTC4J4-79">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="800" y="410" as="sourcePoint" />
+            <mxPoint x="960" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="850" y="452" />
+              <mxPoint x="850" y="452" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="claokVR7_tWzUHQTC4J4-84" value="- Direccion: Direccion" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="422" width="140" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

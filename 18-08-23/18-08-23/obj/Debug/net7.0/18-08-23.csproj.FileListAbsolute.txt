@@ -1,0 +1,15 @@
+C:\Users\Alumno\Documents\Workspace\18-08-23\obj\Debug\net7.0\18-08-23.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\Workspace\18-08-23\obj\Debug\net7.0\18-08-23.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno\Documents\Workspace\18-08-23\obj\Debug\net7.0\18-08-23.AssemblyInfoInputs.cache
+C:\Users\Alumno\Documents\Workspace\18-08-23\obj\Debug\net7.0\18-08-23.AssemblyInfo.cs
+C:\Users\Alumno\Documents\Workspace\18-08-23\obj\Debug\net7.0\18-08-23.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\Workspace\18-08-23\bin\Debug\net7.0\18-08-23.exe
+C:\Users\Alumno\Documents\Workspace\18-08-23\bin\Debug\net7.0\18-08-23.deps.json
+C:\Users\Alumno\Documents\Workspace\18-08-23\bin\Debug\net7.0\18-08-23.runtimeconfig.json
+C:\Users\Alumno\Documents\Workspace\18-08-23\bin\Debug\net7.0\18-08-23.dll
+C:\Users\Alumno\Documents\Workspace\18-08-23\bin\Debug\net7.0\18-08-23.pdb
+C:\Users\Alumno\Documents\Workspace\18-08-23\obj\Debug\net7.0\18-08-23.dll
+C:\Users\Alumno\Documents\Workspace\18-08-23\obj\Debug\net7.0\refint\18-08-23.dll
+C:\Users\Alumno\Documents\Workspace\18-08-23\obj\Debug\net7.0\18-08-23.pdb
+C:\Users\Alumno\Documents\Workspace\18-08-23\obj\Debug\net7.0\18-08-23.genruntimeconfig.cache
+C:\Users\Alumno\Documents\Workspace\18-08-23\obj\Debug\net7.0\ref\18-08-23.dll
