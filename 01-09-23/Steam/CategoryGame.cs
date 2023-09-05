@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Steam
 {
-    internal class CategorySoftware
+    public enum CategoryGame
     {
+        ACTION,
+        PUZZLE,
+        SIMULATOR
     }
 }

@@ -1,0 +1,8 @@
+C:\Users\Usuario\OneDrive\Escritorio\desDeSist\01-09-23\Steam\obj\Debug\Steam.csproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Escritorio\desDeSist\01-09-23\Steam\obj\Debug\Steam.csproj.SuggestedBindingRedirects.cache
+C:\Users\Usuario\OneDrive\Escritorio\desDeSist\01-09-23\Steam\obj\Debug\Steam.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\desDeSist\01-09-23\Steam\bin\Debug\Steam.exe.config
+C:\Users\Usuario\OneDrive\Escritorio\desDeSist\01-09-23\Steam\bin\Debug\Steam.exe
+C:\Users\Usuario\OneDrive\Escritorio\desDeSist\01-09-23\Steam\bin\Debug\Steam.pdb
+C:\Users\Usuario\OneDrive\Escritorio\desDeSist\01-09-23\Steam\obj\Debug\Steam.exe
+C:\Users\Usuario\OneDrive\Escritorio\desDeSist\01-09-23\Steam\obj\Debug\Steam.pdb

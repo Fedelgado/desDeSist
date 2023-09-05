@@ -9,13 +9,13 @@ namespace Steam
     internal class Platform
     {
         private string name;
-        private List<Aplicacion> aplications;
+        private List<Application> applications;
         private List<User> usuarios;
 
-        public Platform(string name, List<Aplicacion> aplications, List<User> usuarios)
+        public Platform(string name, List<Application> applications, List<User> usuarios)
         {
             this.name = name;
-            this.aplications = aplications;
+            this.applications = applications;
             this.usuarios = usuarios;
         }
 

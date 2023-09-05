@@ -9,12 +9,12 @@ namespace Steam
     internal class Game : Application
     {
         private int minAge;
-        private CategoryGame categoria;
+        private CategoryGame category;
 
-        public Game(string nom, double price, bool earlyAcc, double rate, List<Review> reviews, int minAge, CategoryGame categoria) : base(nom, price, earlyAcc, rate, reviews)
+        public Game(string nom, double price, bool earlyAcc, double rate, List<Review> reviews, int minAge, CategoryGame category) : base(nom, price, earlyAcc, rate, reviews)
         {
             this.minAge = minAge;
-            this.categoria = categoria;
+            this.category = category;
         }
 
         public Game() { }

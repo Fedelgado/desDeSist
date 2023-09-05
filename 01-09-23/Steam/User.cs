@@ -8,5 +8,9 @@ namespace Steam
 {
     internal class User
     {
+        private string name;
+        private int age;
+        private double moneyAvailable;
+        private List<Application> appsOwned;
     }
 }

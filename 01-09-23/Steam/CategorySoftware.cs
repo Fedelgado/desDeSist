@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Steam
 {
-    internal class Software
+    public enum CategorySoftware
     {
+        DESIGN,
+        SOCIAL,
+        ADMINISTRATIVE
     }
 }
