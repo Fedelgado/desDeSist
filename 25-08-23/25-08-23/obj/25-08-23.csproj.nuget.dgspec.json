@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Usuario\\OneDrive\\Escritorio\\desDeSist\\25-08-23\\25-08-23\\25-08-23.csproj": {}
+    "C:\\Users\\Usuario\\OneDrive\\Escritorio\\desDeSist\\25-08-23\\25-08-23\\25-08-23.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Usuario\\OneDrive\\Escritorio\\desDeSist\\25-08-23\\25-08-23\\25-08-23.csproj": {
+    "C:\\Users\\Usuario\\OneDrive\\Escritorio\\desDeSist\\25-08-23\\25-08-23\\25-08-23.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Usuario\\OneDrive\\Escritorio\\desDeSist\\25-08-23\\25-08-23\\25-08-23.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\desDeSist\\25-08-23\\25-08-23\\25-08-23.csproj",
         "projectName": "25-08-23",
-        "projectPath": "c:\\Users\\Usuario\\OneDrive\\Escritorio\\desDeSist\\25-08-23\\25-08-23\\25-08-23.csproj",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\desDeSist\\25-08-23\\25-08-23\\25-08-23.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Usuario\\OneDrive\\Escritorio\\desDeSist\\25-08-23\\25-08-23\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\desDeSist\\25-08-23\\25-08-23\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
