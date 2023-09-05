@@ -1,0 +1,15 @@
+c:\Users\Usuario\OneDrive\Escritorio\desDeSist\25-08-23\25-08-23\obj\Debug\net6.0\25-08-23.csproj.AssemblyReference.cache
+c:\Users\Usuario\OneDrive\Escritorio\desDeSist\25-08-23\25-08-23\obj\Debug\net6.0\25-08-23.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Usuario\OneDrive\Escritorio\desDeSist\25-08-23\25-08-23\obj\Debug\net6.0\25-08-23.AssemblyInfoInputs.cache
+c:\Users\Usuario\OneDrive\Escritorio\desDeSist\25-08-23\25-08-23\obj\Debug\net6.0\25-08-23.AssemblyInfo.cs
+c:\Users\Usuario\OneDrive\Escritorio\desDeSist\25-08-23\25-08-23\obj\Debug\net6.0\25-08-23.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\desDeSist\25-08-23\25-08-23\bin\Debug\net6.0\25-08-23.exe
+C:\Users\Usuario\OneDrive\Escritorio\desDeSist\25-08-23\25-08-23\bin\Debug\net6.0\25-08-23.deps.json
+C:\Users\Usuario\OneDrive\Escritorio\desDeSist\25-08-23\25-08-23\bin\Debug\net6.0\25-08-23.runtimeconfig.json
+C:\Users\Usuario\OneDrive\Escritorio\desDeSist\25-08-23\25-08-23\bin\Debug\net6.0\25-08-23.dll
+C:\Users\Usuario\OneDrive\Escritorio\desDeSist\25-08-23\25-08-23\bin\Debug\net6.0\25-08-23.pdb
+C:\Users\Usuario\OneDrive\Escritorio\desDeSist\25-08-23\25-08-23\obj\Debug\net6.0\25-08-23.dll
+C:\Users\Usuario\OneDrive\Escritorio\desDeSist\25-08-23\25-08-23\obj\Debug\net6.0\refint\25-08-23.dll
+C:\Users\Usuario\OneDrive\Escritorio\desDeSist\25-08-23\25-08-23\obj\Debug\net6.0\25-08-23.pdb
+C:\Users\Usuario\OneDrive\Escritorio\desDeSist\25-08-23\25-08-23\obj\Debug\net6.0\25-08-23.genruntimeconfig.cache
+C:\Users\Usuario\OneDrive\Escritorio\desDeSist\25-08-23\25-08-23\obj\Debug\net6.0\ref\25-08-23.dll
