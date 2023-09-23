@@ -1,0 +1,8 @@
+C:\Users\Alumno\Desktop\desDeSist\08-09-23\pawnShop\obj\Debug\pawnShop.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\desDeSist\08-09-23\pawnShop\obj\Debug\pawnShop.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\Desktop\desDeSist\08-09-23\pawnShop\obj\Debug\pawnShop.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\desDeSist\08-09-23\pawnShop\bin\Debug\pawnShop.exe.config
+C:\Users\Alumno\Desktop\desDeSist\08-09-23\pawnShop\bin\Debug\pawnShop.exe
+C:\Users\Alumno\Desktop\desDeSist\08-09-23\pawnShop\bin\Debug\pawnShop.pdb
+C:\Users\Alumno\Desktop\desDeSist\08-09-23\pawnShop\obj\Debug\pawnShop.exe
+C:\Users\Alumno\Desktop\desDeSist\08-09-23\pawnShop\obj\Debug\pawnShop.pdb

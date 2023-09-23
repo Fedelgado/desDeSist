@@ -16,6 +16,8 @@ namespace pawnShop
 
         public string Name { get { return name; } }
 
+        public Category Category { get { return category; } }
+
         public Article() { }
         public Article(string name, double price, bool forSale, Category category, Status status)
         {
@@ -25,5 +27,7 @@ namespace pawnShop
             this.category = category;
             this.status = status;
         }
+
+
     }
 }

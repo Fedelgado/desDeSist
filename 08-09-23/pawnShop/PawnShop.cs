@@ -37,11 +37,12 @@ namespace pawnShop
         {
             int i = 0;
             Article art = new Article();
-            while(art.Name == null)
+            Console.WriteLine(art.Category);
+            while (art.Name == null && i < expList.Count)
             {
                 Article listArt = expList.ElementAt(i);
 
-                if(listArt.Name == artName)
+                if (listArt.Name == artName)
                 {
                     art = listArt;
                 }
@@ -64,10 +65,9 @@ namespace pawnShop
             }
             return index;
         }
-        public bool RemoveArticle(string artName) {
-            int index;
-
-
+        public void RemoveArticle(string artName) {
+            Article artRemove = SearchArticleEleAt(artName);
+            expList.Remove(artRemove);
         }
     }
 }

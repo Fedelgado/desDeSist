@@ -11,5 +11,13 @@ namespace pawnShop
         private string street;
         private int number;
         private int postalCode;
+
+        public Address() { }
+
+        public Address(string street, int number, int postalCode) { 
+            this.street = street;
+            this.number = number;
+            this.postalCode = postalCode;
+        }
     }
 }
